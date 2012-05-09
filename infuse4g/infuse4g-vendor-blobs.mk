@@ -19,9 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/lib/libsecril-client.so:obj/lib/libsecrilclient.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/infuse4g/proprietary/vendor/firmware/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
-    vendor/samsung/infuse4g/proprietary/vendor/firmware/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
-    vendor/samsung/infuse4g/proprietary/bin/BCM4330B1_002.001.003.0043.0061.hcd:system/bin/BCM4330B1_002.001.003.0043.0061.hcd \
+    vendor/samsung/infuse4g/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
+    vendor/samsung/infuse4g/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/melfas_touchkey.kcm.bin:system/vendor/firmware/melfas_touchkey.kcm.bin \
     vendor/samsung/infuse4g/proprietary/vendor/lib/hw/sensors.aries.so:system/vendor/lib/hw/sensors.aries.so \
